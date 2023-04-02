@@ -1,0 +1,116 @@
+/* Rectangle 1 */
+
+.rec1 {
+
+    position: relative;
+    width: 1073px;
+    height: 106px;
+    left: 200px;
+    top: 92px;
+
+    background: #ffffff;     /* background */
+
+}
+
+/* Rectangle 2 */
+.rec2 {
+
+    position: relative;
+    width: 1324px;
+    height: 500px;
+    left: 80px;
+    top: 200px;
+
+    background: #ffffff;     /* background */
+}
+
+
+/* Rectangle 3 */
+.rec3 {
+
+    position: relative;
+    width: 511px;
+    height: 245px;
+    left: 110px;
+    top: 280px;
+
+    background: #ffffff;     /* background */
+}
+
+
+/* Rectangle 4 */
+.rec4 {
+
+    position: relative;
+    width: 189px;
+    height: 65px;
+    left: 1200px;
+    top: 200px;
+    background: #ffffff;     /* background */
+    border-radius: 20px;
+
+}
+
+
+/* Rectangle 5 */
+.rec5 {
+
+    position: relative;
+    width: 387px;
+    height: 301px;
+    left: 950px;
+    bottom:  550px;
+
+    background: #ffffff;     /* background */
+    border-radius: 10px;
+    max-width: 387px;
+    max-height: 301px;
+ 
+}
+
+/* Rectangle 6 */
+.rec6 {
+    position: relative;
+    width: 399px;
+    height: 178px;
+    left: 60px;
+    top: 30px;
+    background: #ffffff;
+    font-size:large ;
+}
+
+
+/* Rectangle 7 */
+.rec7 {
+    position: relative;
+    width: 729px;
+    height: 400px;
+    left: 70px;
+    top: 30px;
+
+    background: #ffffff;
+    font-size:large ;
+}
+
+
+/* Rectangle 8 Title*/
+.rec8 {
+    position: relative;
+    width: 886px;
+    height: 70px;
+    left: 100px;
+    top: 20px;
+    background: #ffffff;
+    font-size:x-large ;
+}
+
+/* .w
+{width: max-content;}
+
+@media all and (max-width:1000px) {
+    .w {
+        width: 100;
+        background: #db0606;
+    }
+
+} */

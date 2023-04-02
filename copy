@@ -1,0 +1,44 @@
+<?php
+
+include("header.php");
+include("con.php");
+?>
+
+<html>
+
+<head>
+    <title>Clubs</title>
+    <link rel="stylesheet" href="mainPage.css">
+    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="DEC.css">
+</head>
+
+<body>
+
+<div class="w">
+    <div class="rec1">
+        <div class="rec8">rec8</div>
+    </div>
+    <div class="rec2">
+        <div class="rec7">rec7</div>
+    </div>
+    <div class="rec3">
+        <div class="rec6">rec6</div>
+    </div>
+
+    <div class="rec4">APPLY</div>
+
+    <div class="rec5">rec5</div>
+
+
+
+    <div style="margin: 350;"></div>
+
+
+</div>
+
+
+
+</body>
+
+</html>
