@@ -18,6 +18,9 @@
         z-index: 2;
         overflow: hidden;
         position: relative;
+        /* bottom: 0;
+        left: 0;
+        right: 0; */
     }
 
     .main_nav {
@@ -39,13 +42,21 @@
         font-size: 130%;
 
     }
+
+    .main_nav a:hover {
+        color: #83c5c8;
+        padding-bottom: 7px;
+        border-bottom: 2px solid #83c5c8;
+    }
 </style>
 
 <header class="footer">
 
     <nav class="main_nav">
-        <a href="aboutUs.php">TWITTER</a>
-        <a href="clubs.php">LINKED IN</a>
+        <img src="img/Twitter.png" height="20px" style="display:block-inline; position:relative; left: 75px;">
+        <a href="https://twitter.com/CsBayan?s=11&t=aHhgk6loW_aI2O06aRX-kw" style="display:block-inline; position:relative; top: -5px;">TWITTER</a>
+        <img src="img/linkedin.png" height="20px" style="display:block-inline; position:relative; left: 75px;">
+        <a href="https://www.linkedin.com/in/bayan-aldoghan/" style="display:block-inline; position:relative; top: -5px;">LINKED IN</a>
     </nav>
 
 </header>

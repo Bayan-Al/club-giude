@@ -43,11 +43,12 @@ include("con.php");
 
     <div class="Text_wrapper" style="margin-bottom: -100;">
         <div class="text">
-            <p>Explore more than 1,900 college and university chapters across more than 100 countries. Meet and learn with other budding developers and build solutions for local businesses and communities with Google technology.</p>
-
+        <p>
+                <!-- write an intro -->
+            </p>
         </div>
     </div>
- 
+
     <div class="container" style="margin: -90;">
         <?php foreach ($club as $clubInfo) { ?>
             <div class="card-wrapper">
@@ -56,15 +57,19 @@ include("con.php");
                 if (isset($_POST['submit'])) {
                     $name = $_POST["name"];
                     $pic = $_POST["pic"];
+                    $dec = $_POST["dec"];
                 }
                 $name  = $clubInfo['name'];
                 $pic = $clubInfo['pic'];
+                $dec = $clubInfo["dec"];
                 ?>
                 <form action="DEC1.php" method="post">
                     <div class="card">
                         <img class="image" src=<?php echo $clubInfo['pic'] ?> height="100%">
                         <input type="hidden" name="name" value="<?php echo  $name; ?>">
                         <input type="hidden" name="pic" value=<?php echo  $pic; ?>>
+                        <input type="hidden" name="dec" value="<?php echo  $dec; ?>">
+
                         <button type="submit" class="press">
                             <a href="DEC1.php">
                                 <div class="collage-button" type="submit" style="left: 80; font-size: 12;"> LEARN MORE </div>
@@ -79,9 +84,7 @@ include("con.php");
         <?php } ?>
     </div>
 
-
-
-
+    <div style="margin: 250;"></div>
 
 </body>
 

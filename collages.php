@@ -41,47 +41,52 @@ include("con.php")
 
     <div class="Text_wrapper" style="margin-bottom: -100;">
         <div class="text">
-            <p>Explore more than 1,900 college and university chapters across more than 100 countries. Meet and learn with other budding developers and build solutions for local businesses and communities with Google technology.</p>
-
+        <p>
+                <!-- write an intro -->
+            </p>
         </div>
     </div>
     <div style="margin: 100;"></div>
 
-    
+
     <div class="container" style="margin: -90;">
-        <?php foreach ($club as $clubInfo) { ?>
+        <?php foreach ($collages as $clubInfo) { ?>
             <div class="card-wrapper">
                 <!-- here where the database is sent -->
                 <?php
                 if (isset($_POST['submit'])) {
                     $name = $_POST["name"];
                     $pic = $_POST["pic"];
+                    $dec = $_POST["dec"];
                 }
                 $name  = $clubInfo['name'];
                 $pic = $clubInfo['pic'];
+                $dec = $clubInfo["dec"];
                 ?>
                 <form action="DEC1.php" method="post">
                     <div class="card">
                         <img class="image" src=<?php echo $clubInfo['pic'] ?> height="100%">
+                        <!-- <script>
+                            if ("<?php echo $clubInfo['pic']; ?>".height < 50) {
+                                console.log("hi");
+                            }
+                        </script> -->
                         <input type="hidden" name="name" value="<?php echo  $name; ?>">
                         <input type="hidden" name="pic" value=<?php echo  $pic; ?>>
+                        <input type="hidden" name="dec" value="<?php echo  $dec; ?>">
                         <button type="submit" class="press">
                             <a href="DEC1.php">
-                                <div class="collage-button" type="submit" style="left: 80; font-size: 12;"> LEARN MORE </div>
+                                <div class="collage-button" type="submit" style="top: 190px; right: 30; font-size: 12; visibility: visable;"> LEARN MORE </div>
                             </a>
                         </button>
-                        <a href=<?php echo ($clubInfo['apply']); ?>>
-                            <div class="collage-button"> APPLY </div>
-                        </a>
+
                     </div>
                 </form>
             </div>
         <?php } ?>
     </div>
 
-
-
-
+    <div style="margin: 500;"></div>
 
 
 </body>

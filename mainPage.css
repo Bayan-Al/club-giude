@@ -38,6 +38,7 @@ body {
     /* background-position-x: 200; */
     background-position: absolute;
     background: local;
+    
 }
 
 
@@ -94,10 +95,10 @@ body {
     margin-left: 10;
 }
 
-@media all and (max-width:700px){
+@media all and (max-width:700px) {
 
-    #main_nav a{
-        color:rgb(240, 9, 9);
+    #main_nav a {
+        color: rgb(240, 9, 9);
     }
 
 }
@@ -374,7 +375,7 @@ body {
     /* max-width: 40%;
     max-height: 40%; */
     z-index: 2;
-    background-color: #82c5c8;
+    /* background-color: #82c5c8; */
     transition: .5s;
     border: 0.0px solid #82c4c800;
     border-radius: 10px;
@@ -418,3 +419,16 @@ body {
 }
 
 /* ---------------- */
+
+.buttonBorder {
+    /* border: solid gray 1px;   */
+    width: 25%;
+    border-radius: 2px;
+    margin: 120px auto;
+    margin-top: 120px auto;
+    margin-bottom: -180px;
+    background: white;
+    padding: 50px;
+    position: relative;
+    top: 160px;
+}

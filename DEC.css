@@ -1,5 +1,17 @@
 /* Rectangle 1 */
 
+.rec {
+
+    position: relative;
+    width: 1073px;
+    height: 106px;
+    left: 200px;
+    top: 92px;
+    background: #bd0404;
+    /* background */
+    margin: 100;
+}
+
 .rec1 {
 
     position: relative;
@@ -7,8 +19,8 @@
     height: 106px;
     left: 200px;
     top: 92px;
-
-    background: #ffffff;     /* background */
+    background: #bd0404;
+    /* background */
 
 }
 
@@ -21,7 +33,8 @@
     left: 80px;
     top: 200px;
 
-    background: #ffffff;     /* background */
+    background: #ffffff;
+    /* background */
 }
 
 
@@ -34,7 +47,8 @@
     left: 110px;
     top: 280px;
 
-    background: #ffffff;     /* background */
+    background: #ffffff;
+    /* background */
 }
 
 
@@ -46,7 +60,8 @@
     height: 65px;
     left: 1200px;
     top: 200px;
-    background: #ffffff;     /* background */
+    background: #ffffff;
+    /* background */
     border-radius: 20px;
 
 }
@@ -59,13 +74,14 @@
     width: 387px;
     height: 301px;
     left: 950px;
-    bottom:  550px;
+    bottom: 550px;
 
-    background: #ffffff;     /* background */
+    background: #ffffff;
+    /* background */
     border-radius: 10px;
     max-width: 387px;
     max-height: 301px;
- 
+
 }
 
 /* Rectangle 6 */
@@ -76,7 +92,7 @@
     left: 60px;
     top: 30px;
     background: #ffffff;
-    font-size:large ;
+    font-size: large;
 }
 
 
@@ -89,7 +105,8 @@
     top: 30px;
 
     background: #ffffff;
-    font-size:large ;
+    font-size: large;
+ 
 }
 
 
@@ -101,16 +118,63 @@
     left: 100px;
     top: 20px;
     background: #ffffff;
-    font-size:x-large ;
+    font-size: x-large;
 }
 
-/* .w
-{width: max-content;}
 
-@media all and (max-width:1000px) {
-    .w {
-        width: 100;
-        background: #db0606;
-    }
+/* Rectangle 2 */
+.REC1 {
+    position: absolute;
+    width: 739px;
+    height: 669px;
+    left: 77px;
+    top: 289px;
+    background-color: red;
+    /* background: #B7CAD4; */
+}
 
-} */
+/* Rectangle 5 */
+.REC2 {
+    position: absolute;
+    width: 387px;
+    height: 301px;
+    left: 953px;
+    top: 335px;
+
+    background: #9DACAD;
+    border-radius: 10px;
+}
+
+/* Rectangle 1 */
+.REC3 {
+    position: absolute;
+    width: 1073px;
+    height: 106px;
+    left: 202px;
+    top: 137px;
+
+    background: #B7CAD4;
+}
+
+/* Rectangle 4 */
+.REC4 {
+    position: absolute;
+    width: 189px;
+    height: 65px;
+    left: 1151px;
+    top: 893px;
+
+    background: #799597;
+    border-radius: 20px;
+}
+
+.REC5 {
+    position: absolute;
+    width: 387px;
+    height: 166px;
+    left: 953px;
+    top: 682px;
+
+    background: #B3CBCC;
+    border-radius: 10px;
+}
