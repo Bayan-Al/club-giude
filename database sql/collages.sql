@@ -1,0 +1,22 @@
+-- database name = Club_Guide --
+
+CREATE TABLE `collages` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `dec` varchar(1000) NOT NULL,
+  `pic` varchar(400) NOT NULL,
+  `clubs_available` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+INSERT INTO `collages` (`id`, `name`, `dec`, `pic`, `clubs_available`) VALUES
+(1, 'king Faisal University', 'King Faisal University (KFU) ) is a public university with the main campus in the city of Hofuf in Al Ahsa, Saudi Arabia founded in 1975. KFU was initially established with four colleges: two in Dammam and the other two in Al-Ahsa.[2] Later, the colleges in Dammam have been segregated to become the Imam Abdulrahman Bin Faisal University.\r\n\r\n', 'https://www.my.gov.sa/wps/wcm/connect/53287931-241c-4d61-9c28-cc89c2656ef3/logo.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-53287931-241c-4d61-9c28-cc89c2656ef3-osEvP8U', 1),
+(2, 'King Saud University ', 'King Saud University  is a public university in Riyadh, Saudi Arabia. Established in 1957 by King Saud to address the country\'s skilled worker shortage, it is the first university in Saudi Arabia.[3] It was known as Riyadh University from 1964 until it was reverted to its inceptive name in 1982.[4]\r\n\r\nThe student body of KSU today consists of 40,000 male and female students, 7% of which are international.[5] The female students have their own disciplinary panel,[6] and there is a center supervising the progress of female students, either personally by female faculty members or by male faculty members via a closed television network.[7] The university offers courses in the natural sciences, the humanities, and professional studies, and many courses are tuition-free.[8] The medium of instruction in undergraduate programs is English and Arabic depending on the chosen major. Among Arab universities, its medical programs are highly regarded.', 'https://medicine.ksu.edu.sa/themes/custom/gavias_enzio/logo.png', 1),
+(3, 'King AbdulAziz University', 'King Abdulaziz University (KAU)  is a public university in Jeddah, Saudi Arabia. With over 117,096 students in 2022, it is the largest university in the country. Located in south Jeddah, the university is the center of teaching and research of the city, comprising 24 faculties, 15 of these are located on the campus and 9 are off-campus. The university also offers some courses that are unavailable at any other universities in Saudi Arabia, such as marine science, meteorology, and astronomy. It was established in 1967 as a private university by a group of businessmen led by Muhammad Bakhashab and including author Hamza Bogary.[2] In 1974, King Abdulaziz University was converted to a public university by a decision of the Saudi Cabinet under King Faisal\'s orders.\r\n', 'https://upload.wikimedia.org/wikipedia/en/6/66/King_Abdulaziz_University_%28emblem%29.jpg', 1),
+(4, 'King Abdullah University of Science and Technology (KAUST)', 'King Abdullah University of Science and Technology is a private research university located in Thuwal, Saudi Arabia. Founded in 2009, the university provides research and graduate training programs in English as the official language of instruction.\r\n\r\nKAUST is the first mixed-gender university campus in Saudi Arabia.[3] In 2013, the university was among the 500 fastest growing research and citation records in the world.[4] In the 2016 Nature Index Rising Stars, the university ranked 19th in the world of the fastest rising universities for high quality research output.[5] In 2019 KAUST is ranked 8th fastest rising young universities (aged 50 and under) for their research output since 2015, as measured by fractional count (FC).[6]', 'https://upload.wikimedia.org/wikipedia/en/thumb/7/70/KAUST_Logo.svg/410px-KAUST_Logo.svg.png', 1),
+(5, 'King Fahd University of Petroleum and Minerals', 'King Fahd University of Petroleum and Minerals (KFUPM) after 1975 as the University of Petroleum and Minerals and initially as the College of Petroleum and Minerals, is a nonprofit institution in Dhahran, Saudi Arabia. Among Saudi Arabian universities, its science, engineering, business, and management programs are highly regarded in the country as well as in the whole region.\r\n\r\nIn 2022, KFUPM was ranked in the 163rd position[2] according the QS World University Rankings, and was ranked the third university in the Arab region.[3]', 'https://upload.wikimedia.org/wikipedia/commons/9/94/KFUPM_seal.png', 1);
+
+
+ALTER TABLE `collages`
+  ADD PRIMARY KEY (`id`);
+COMMIT;
